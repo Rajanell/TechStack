@@ -1,0 +1,128 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.API", "Rajanell.TechStack.API", "{501D4735-CD67-4B13-AF03-B29A7296396A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Client", "Rajanell.TechStack.Client", "{3485A839-8E67-40E3-9EF5-D520A01CDAE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.API.Store", "Rajanell.NetCoreTechStack.Api.Store\Rajanell.TechStack.API.Store.csproj", "{96B7C4D2-97D9-4AF9-9512-E35C06CA3011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Security", "Rajanell.TechStack.Security", "{E6775711-3483-44D5-8B7A-EAF814AAE109}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Security.IdentityProvider", "Rajanell.NetCoreTechStack.Security.IdentityProvider\Rajanell.TechStack.Security.IdentityProvider.csproj", "{BF92BA93-8742-4903-8DDE-95CA800FE8F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Client.Store", "Rajanell.TechStack.Client.Store\Rajanell.TechStack.Client.Store.csproj", "{601167F0-15AF-4758-BBB9-AB778044B354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Core", "Rajanell.TechStack.Core", "{5887434E-EFC5-481B-8D91-F526EAE63E6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Application", "Rajanell.TechStack.Application", "{86BBE392-A252-4A17-A80F-DCDA504FF555}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Application.Communication", "Rajanell.TechStack.Application.Communication\Rajanell.TechStack.Application.Communication.csproj", "{A2876647-59EC-4D2E-9925-19AA3F66D709}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Application.Events", "Rajanell.TechStack.Application.Events\Rajanell.TechStack.Application.Events.csproj", "{03017B8A-6544-4A14-9FF6-2FD4A64265F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Infrastructure", "Rajanell.TechStack.Infrastructure", "{763BB692-5F4A-4981-932A-4F8FD7DEDECF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Infrastructure.Data", "Rajanell.TechStack.Infrastructure.Data\Rajanell.TechStack.Infrastructure.Data.csproj", "{1136C396-D79C-4186-82A5-1F7E278FD580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStach.Core.Model", "Rajanell.TechStach.Core.Model\Rajanell.TechStach.Core.Model.csproj", "{94C26053-519D-443C-9E03-FED00313E237}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Core.Service", "Rajanell.TechStack.Core.Service\Rajanell.TechStack.Core.Service.csproj", "{F1D9385D-84CC-432E-9CB7-0FD4F66F6AD0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Core.Repository", "Rajanell.TechStack.Core.Repository\Rajanell.TechStack.Core.Repository.csproj", "{9EE5A49E-6B9C-4CB6-9B45-CBAB6EC8AF4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Services", "Rajanell.TechStack.Services", "{9FE902C0-FF1B-4021-968B-D4EC7B28721E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Services", "Rajanell.TechStack.Services\Rajanell.TechStack.Services.csproj", "{944E7BB1-3788-4BFE-86F1-8771B3ACDCA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Services.Repository", "Rajanell.TechStack.Services.Repository\Rajanell.TechStack.Services.Repository.csproj", "{4AC52098-F194-4772-9AB2-D6E311845050}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Services.EventHandlers", "Rajanell.TechStack.Services.EventHandlers\Rajanell.TechStack.Services.EventHandlers.csproj", "{B56FA466-2C37-4FF1-85CD-1E350342D26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.TechStack.Validation", "Rajanell.TechStack.Validation\Rajanell.TechStack.Validation.csproj", "{16A012D9-93D9-45AE-B698-863EA3427BF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Test", "Rajanell.TechStack.Test", "{D7809BB6-9FD6-4605-B6AF-96D907E99045}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B7C4D2-97D9-4AF9-9512-E35C06CA3011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B7C4D2-97D9-4AF9-9512-E35C06CA3011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B7C4D2-97D9-4AF9-9512-E35C06CA3011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B7C4D2-97D9-4AF9-9512-E35C06CA3011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF92BA93-8742-4903-8DDE-95CA800FE8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF92BA93-8742-4903-8DDE-95CA800FE8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF92BA93-8742-4903-8DDE-95CA800FE8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF92BA93-8742-4903-8DDE-95CA800FE8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601167F0-15AF-4758-BBB9-AB778044B354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601167F0-15AF-4758-BBB9-AB778044B354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601167F0-15AF-4758-BBB9-AB778044B354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601167F0-15AF-4758-BBB9-AB778044B354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2876647-59EC-4D2E-9925-19AA3F66D709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2876647-59EC-4D2E-9925-19AA3F66D709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2876647-59EC-4D2E-9925-19AA3F66D709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2876647-59EC-4D2E-9925-19AA3F66D709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03017B8A-6544-4A14-9FF6-2FD4A64265F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03017B8A-6544-4A14-9FF6-2FD4A64265F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03017B8A-6544-4A14-9FF6-2FD4A64265F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03017B8A-6544-4A14-9FF6-2FD4A64265F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1136C396-D79C-4186-82A5-1F7E278FD580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1136C396-D79C-4186-82A5-1F7E278FD580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1136C396-D79C-4186-82A5-1F7E278FD580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1136C396-D79C-4186-82A5-1F7E278FD580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C26053-519D-443C-9E03-FED00313E237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C26053-519D-443C-9E03-FED00313E237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C26053-519D-443C-9E03-FED00313E237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C26053-519D-443C-9E03-FED00313E237}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1D9385D-84CC-432E-9CB7-0FD4F66F6AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D9385D-84CC-432E-9CB7-0FD4F66F6AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D9385D-84CC-432E-9CB7-0FD4F66F6AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D9385D-84CC-432E-9CB7-0FD4F66F6AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE5A49E-6B9C-4CB6-9B45-CBAB6EC8AF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE5A49E-6B9C-4CB6-9B45-CBAB6EC8AF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE5A49E-6B9C-4CB6-9B45-CBAB6EC8AF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE5A49E-6B9C-4CB6-9B45-CBAB6EC8AF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944E7BB1-3788-4BFE-86F1-8771B3ACDCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944E7BB1-3788-4BFE-86F1-8771B3ACDCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944E7BB1-3788-4BFE-86F1-8771B3ACDCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944E7BB1-3788-4BFE-86F1-8771B3ACDCA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC52098-F194-4772-9AB2-D6E311845050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC52098-F194-4772-9AB2-D6E311845050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC52098-F194-4772-9AB2-D6E311845050}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC52098-F194-4772-9AB2-D6E311845050}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56FA466-2C37-4FF1-85CD-1E350342D26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56FA466-2C37-4FF1-85CD-1E350342D26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56FA466-2C37-4FF1-85CD-1E350342D26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56FA466-2C37-4FF1-85CD-1E350342D26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A012D9-93D9-45AE-B698-863EA3427BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A012D9-93D9-45AE-B698-863EA3427BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A012D9-93D9-45AE-B698-863EA3427BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A012D9-93D9-45AE-B698-863EA3427BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96B7C4D2-97D9-4AF9-9512-E35C06CA3011} = {501D4735-CD67-4B13-AF03-B29A7296396A}
+		{BF92BA93-8742-4903-8DDE-95CA800FE8F1} = {E6775711-3483-44D5-8B7A-EAF814AAE109}
+		{601167F0-15AF-4758-BBB9-AB778044B354} = {3485A839-8E67-40E3-9EF5-D520A01CDAE8}
+		{A2876647-59EC-4D2E-9925-19AA3F66D709} = {86BBE392-A252-4A17-A80F-DCDA504FF555}
+		{03017B8A-6544-4A14-9FF6-2FD4A64265F5} = {86BBE392-A252-4A17-A80F-DCDA504FF555}
+		{1136C396-D79C-4186-82A5-1F7E278FD580} = {763BB692-5F4A-4981-932A-4F8FD7DEDECF}
+		{94C26053-519D-443C-9E03-FED00313E237} = {5887434E-EFC5-481B-8D91-F526EAE63E6B}
+		{F1D9385D-84CC-432E-9CB7-0FD4F66F6AD0} = {5887434E-EFC5-481B-8D91-F526EAE63E6B}
+		{9EE5A49E-6B9C-4CB6-9B45-CBAB6EC8AF4F} = {5887434E-EFC5-481B-8D91-F526EAE63E6B}
+		{944E7BB1-3788-4BFE-86F1-8771B3ACDCA1} = {9FE902C0-FF1B-4021-968B-D4EC7B28721E}
+		{4AC52098-F194-4772-9AB2-D6E311845050} = {9FE902C0-FF1B-4021-968B-D4EC7B28721E}
+		{B56FA466-2C37-4FF1-85CD-1E350342D26D} = {9FE902C0-FF1B-4021-968B-D4EC7B28721E}
+		{16A012D9-93D9-45AE-B698-863EA3427BF1} = {9FE902C0-FF1B-4021-968B-D4EC7B28721E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA99D0C5-F178-423A-86D1-85C166391CC7}
+	EndGlobalSection
+EndGlobal

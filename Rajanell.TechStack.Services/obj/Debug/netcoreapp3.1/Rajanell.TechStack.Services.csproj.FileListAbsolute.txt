@@ -1,0 +1,9 @@
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.deps.json
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.AssemblyInfoInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.AssemblyInfo.cs
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.csproj.CoreCompileInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.csprojAssemblyReference.cache

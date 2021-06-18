@@ -1,0 +1,14 @@
+﻿@model List<Rajanell.TechStach.Core.Model.ResponseDTO.ProductCategoryResponse>
+
+@if (Model.Any())
+{
+<ul class="main-category">
+    @foreach (var category in Model)
+    {
+        <li>
+            <a href="~/Products/Index?categoryId=@category.ProductCategoryId">@category.Name <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+        </li>
+    }
+
+</ul>
+}

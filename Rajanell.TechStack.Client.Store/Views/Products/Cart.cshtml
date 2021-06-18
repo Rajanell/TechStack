@@ -1,0 +1,85 @@
+﻿@model Rajanell.TechStack.Client.Store.Models.CartViewModel
+
+@if (Model.Products != null)
+{
+    <div class="shopping-cart section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Shopping Summery -->
+                    <table class="table shopping-summery">
+                        <thead>
+                            <tr class="main-hading">
+                                <th>PRODUCT</th>
+                                <th>NAME</th>
+                                <th class="text-center">PRICE</th>
+                                <th class="text-center">Quantity</th>
+                                <th class="text-center">TOTAL</th>
+                                <th class="text-center"><i class="ti-trash remove-icon"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var product in Model.Products)
+                            {
+                               
+                                var imagePath = $"/images/{product.Image}";
+                                <tr>
+                                    <td class="image" data-title="No"><img src="@imagePath" alt="#"> </td>
+                                    <td class="product-des" data-title="Description">
+                                        <p class="product-name"><a href="#">@product.Name</a></p>
+                                        <p class="product-des">@product.Description</p>
+                                    </td>
+                                    <td class="price" data-title="Price"><span>$@product.Price </span></td>
+                                    <td class="price" data-title="Price"><span>@product.Quantity </span></td>
+                                    <td class="price" data-title="Price">@product.TotalPrice </td>
+                                    <td class="action" data-title="Remove"><a href="~/Products/RemoveFromCart?productId=@product.ProductId"><i class="ti-trash remove-icon"></i></a></td>
+                                </tr>
+                            }
+
+
+                        </tbody>
+                    </table>
+                    <!--/ End Shopping Summery -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Total Amount -->
+                    <div class="total-amount">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-5 col-12">
+                                <div class="left">
+              
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-7 col-12">
+                                <div class="right">
+                                    <ul>
+                                        <li>Cart Subtotal<span>R @Model.TotalPrice</span></li>
+                                        <li>Shipping<span>Free</span></li>
+                                        <li class="last">You Pay<span>R @Model.TotalPrice</span></li>
+                                    </ul>
+                                    <div class="button5">
+                                        <a href="~/Profile/Checkout" class="btn">Checkout</a>
+                                        <a href="~/Products/Index" class="btn">Continue shopping</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/ End Total Amount -->
+                </div>
+            </div>
+        </div>
+    </div> }
+else
+{
+    <br />
+    <br />
+    <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        <div style="padding-left:50px">
+            Your shopping cart is empty.
+        </div>
+    </div>
+}

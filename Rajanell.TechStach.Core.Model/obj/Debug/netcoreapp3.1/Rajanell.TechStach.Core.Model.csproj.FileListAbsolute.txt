@@ -1,0 +1,9 @@
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.deps.json
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\obj\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.csprojAssemblyReference.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\obj\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.AssemblyInfoInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\obj\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.AssemblyInfo.cs
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\obj\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.csproj.CoreCompileInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\obj\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStach.Core.Model\obj\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.pdb

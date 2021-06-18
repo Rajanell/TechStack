@@ -1,0 +1,12 @@
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.deps.json
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.csprojAssemblyReference.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.AssemblyInfoInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.AssemblyInfo.cs
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.csproj.CoreCompileInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Application.Communication\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Application.Communication.csproj.CopyComplete

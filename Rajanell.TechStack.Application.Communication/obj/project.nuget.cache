@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ekh7X4qfopz3DCA7VLoS/fzW36uC9GLnpnE+HhI64lqgl+azed7IGhgH9n5fCIr5rewk4e7JrPPCyXYJ7Ni9MA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Application.Communication\\Rajanell.TechStack.Application.Communication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\c822499\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rajanell.TechStack.Application.Events\Rajanell.TechStack.Application.Events.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Core.Repository\Rajanell.TechStack.Core.Repository.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Infrastructure.Data\Rajanell.TechStack.Infrastructure.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Rajanell.TechStack.Core.Repository/1.0.0": {
+        "dependencies": {
+          "Rajanell.TechStach.Core.Model": "1.0.0"
+        },
+        "runtime": {
+          "Rajanell.TechStack.Core.Repository.dll": {}
+        }
+      },
+      "Rajanell.TechStach.Core.Model/1.0.0": {
+        "runtime": {
+          "Rajanell.TechStach.Core.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rajanell.TechStack.Core.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rajanell.TechStach.Core.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

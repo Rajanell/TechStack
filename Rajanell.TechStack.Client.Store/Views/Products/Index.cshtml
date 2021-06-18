@@ -1,0 +1,54 @@
+﻿@model List<Rajanell.TechStach.Core.Model.ResponseDTO.ProductResponse>
+
+@if (Model.Any())
+{
+    <div class="shopping-cart section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Shopping Summery -->
+                    <table class="table shopping-summery">
+                        <thead>
+                            <tr class="main-hading">
+                                <th>PRODUCT</th>
+                                <th>NAME</th>
+                                <th class="text-center">PRICE</th>
+                                <th class="text-center"><i class="fa fa-shopping-cart" aria-hidden="true"></i></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var product in Model)
+                            {
+                               
+                                var imagePath = $"/images/{product.Image}";
+                                <tr>
+                                    <td class="image" data-title="No"><img src="@imagePath" alt="#"></td>
+                                    <td class="product-des" data-title="Description">
+                                        <p class="product-name"><a href="#">@product.Name</a></p>
+                                        <p class="product-des">@product.Description</p>
+                                    </td>
+                                    <td class="price" data-title="Price"><span>R @product.Price </span></td>
+                                    <td class="action" data-title="Add"><a href="~/Products/AddToCart?productId=@product.ProductId"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></td>
+                                </tr>
+                            }
+
+
+                        </tbody>
+                    </table>
+                    <!--/ End Shopping Summery -->
+                </div>
+            </div>
+        </div>
+    </div> }
+else
+{
+    <br /><br />
+    <div class="alert alert-primary d-flex align-items-center" role="alert">
+        <i class="fa fa-info-circle" aria-hidden="true"></i>
+        <div style="padding-left:50px">
+            No products found for the selected category
+        </div>
+    </div>
+}
+
+

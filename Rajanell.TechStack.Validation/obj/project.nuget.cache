@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cHilAL5KWMSPjSPN1rJDgQ0JC+orWRXBu5aCf9CsS9uq3/Ojro7D91HMRAGKQcnpm8jDUj6DLmLrdw4V12ovdw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Validation\\Rajanell.TechStack.Validation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\c822499\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\c822499\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.2.3\\fluentvalidation.aspnetcore.10.2.3.nupkg.sha512",
+    "C:\\Users\\c822499\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.2.3\\fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
+    "C:\\Users\\c822499\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

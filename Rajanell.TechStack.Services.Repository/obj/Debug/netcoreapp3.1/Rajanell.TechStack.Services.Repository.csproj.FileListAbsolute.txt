@@ -1,0 +1,16 @@
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.deps.json
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.AssemblyInfoInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.AssemblyInfo.cs
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.csproj.CoreCompileInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Core.Repository.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Infrastructure.Data.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Core.Repository.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Infrastructure.Data.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.csprojAssemblyReference.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Services.Repository\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Services.Repository.csproj.CopyComplete

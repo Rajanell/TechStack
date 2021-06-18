@@ -1,0 +1,12 @@
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.deps.json
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.csprojAssemblyReference.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.AssemblyInfoInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.AssemblyInfo.cs
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.csproj.CoreCompileInputs.cache
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\bin\Debug\netcoreapp3.1\Rajanell.TechStach.Core.Model.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.TechStack.Validation\obj\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.csproj.CopyComplete

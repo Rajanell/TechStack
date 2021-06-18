@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="4.0.0" />
+
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Rajanell.TechStack.Core.Repository\Rajanell.TechStack.Core.Repository.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Services.Repository\Rajanell.TechStack.Services.Repository.csproj" />
+  </ItemGroup>
+</Project>
