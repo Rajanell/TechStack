@@ -58,6 +58,16 @@
         "runtime": {
           "bin/placeholder/Rajanell.TechStach.Core.Model.dll": {}
         }
+      },
+      "Rajanell.TechStack.Core.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Rajanell.TechStack.Core.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rajanell.TechStack.Core.Service.dll": {}
+        }
       }
     }
   },
@@ -129,12 +139,18 @@
       "type": "project",
       "path": "../Rajanell.TechStach.Core.Model/Rajanell.TechStach.Core.Model.csproj",
       "msbuildProject": "../Rajanell.TechStach.Core.Model/Rajanell.TechStach.Core.Model.csproj"
+    },
+    "Rajanell.TechStack.Core.Service/1.0.0": {
+      "type": "project",
+      "path": "../Rajanell.TechStack.Core.Service/Rajanell.TechStack.Core.Service.csproj",
+      "msbuildProject": "../Rajanell.TechStack.Core.Service/Rajanell.TechStack.Core.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "FluentValidation.AspNetCore >= 10.2.3",
-      "Rajanell.TechStach.Core.Model >= 1.0.0"
+      "Rajanell.TechStach.Core.Model >= 1.0.0",
+      "Rajanell.TechStack.Core.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -171,6 +187,9 @@
           "projectReferences": {
             "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStach.Core.Model\\Rajanell.TechStach.Core.Model.csproj": {
               "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStach.Core.Model\\Rajanell.TechStach.Core.Model.csproj"
+            },
+            "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Service\\Rajanell.TechStack.Core.Service.csproj": {
+              "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Service\\Rajanell.TechStack.Core.Service.csproj"
             }
           }
         }

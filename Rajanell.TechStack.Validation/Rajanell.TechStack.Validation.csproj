@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Rajanell.TechStach.Core.Model\Rajanell.TechStach.Core.Model.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Core.Service\Rajanell.TechStack.Core.Service.csproj" />
   </ItemGroup>
 
 </Project>

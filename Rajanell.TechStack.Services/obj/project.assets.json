@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Rajanell.TechStach.Core.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Rajanell.TechStach.Core.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rajanell.TechStach.Core.Model.dll": {}
+        }
+      },
+      "Rajanell.TechStack.Core.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Rajanell.TechStach.Core.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rajanell.TechStack.Core.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rajanell.TechStack.Core.Repository.dll": {}
+        }
+      },
+      "Rajanell.TechStack.Core.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Rajanell.TechStack.Core.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rajanell.TechStack.Core.Service.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Rajanell.TechStach.Core.Model/1.0.0": {
+      "type": "project",
+      "path": "../Rajanell.TechStach.Core.Model/Rajanell.TechStach.Core.Model.csproj",
+      "msbuildProject": "../Rajanell.TechStach.Core.Model/Rajanell.TechStach.Core.Model.csproj"
+    },
+    "Rajanell.TechStack.Core.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Rajanell.TechStack.Core.Repository/Rajanell.TechStack.Core.Repository.csproj",
+      "msbuildProject": "../Rajanell.TechStack.Core.Repository/Rajanell.TechStack.Core.Repository.csproj"
+    },
+    "Rajanell.TechStack.Core.Service/1.0.0": {
+      "type": "project",
+      "path": "../Rajanell.TechStack.Core.Service/Rajanell.TechStack.Core.Service.csproj",
+      "msbuildProject": "../Rajanell.TechStack.Core.Service/Rajanell.TechStack.Core.Service.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Rajanell.TechStack.Core.Repository >= 1.0.0",
+      "Rajanell.TechStack.Core.Service >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\c822499\\.nuget\\packages\\": {},
@@ -38,7 +91,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Repository\\Rajanell.TechStack.Core.Repository.csproj": {
+              "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Repository\\Rajanell.TechStack.Core.Repository.csproj"
+            },
+            "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Service\\Rajanell.TechStack.Core.Service.csproj": {
+              "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Service\\Rajanell.TechStack.Core.Service.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

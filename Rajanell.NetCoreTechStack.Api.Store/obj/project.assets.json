@@ -29,6 +29,44 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
+      "FluentValidation/10.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.AspNetCore/10.2.3": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.2.3",
+          "FluentValidation.DependencyInjectionExtensions": "10.2.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FluentValidation.DependencyInjectionExtensions/10.2.3": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.2.3",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "IdentityModel/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -1661,6 +1699,16 @@
           "bin/placeholder/Rajanell.TechStack.Core.Repository.dll": {}
         }
       },
+      "Rajanell.TechStack.Core.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Rajanell.TechStack.Core.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rajanell.TechStack.Core.Service.dll": {}
+        }
+      },
       "Rajanell.TechStack.Infrastructure.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1674,6 +1722,20 @@
         },
         "runtime": {
           "bin/placeholder/Rajanell.TechStack.Infrastructure.Data.dll": {}
+        }
+      },
+      "Rajanell.TechStack.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Rajanell.TechStack.Core.Repository": "1.0.0",
+          "Rajanell.TechStack.Core.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rajanell.TechStack.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rajanell.TechStack.Services.dll": {}
         }
       },
       "Rajanell.TechStack.Services.EventHandlers/1.0.0": {
@@ -1706,6 +1768,21 @@
         "runtime": {
           "bin/placeholder/Rajanell.TechStack.Services.Repository.dll": {}
         }
+      },
+      "Rajanell.TechStack.Validation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "10.2.3",
+          "Rajanell.TechStach.Core.Model": "1.0.0",
+          "Rajanell.TechStack.Core.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Rajanell.TechStack.Validation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Rajanell.TechStack.Validation.dll": {}
+        }
       }
     }
   },
@@ -1737,6 +1814,56 @@
         "automapper.extensions.microsoft.dependencyinjection.nuspec",
         "icon.png",
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
+      ]
+    },
+    "FluentValidation/10.2.3": {
+      "sha512": "R2w/E6jgg9RPSlg7JQSTHg6AWDwlOXARaV4ZUKrPJ1gi1e+oaBEcomxmo29j9BLZivkyQhOpAboJ9nKZS4/xYA==",
+      "type": "package",
+      "path": "fluentvalidation/10.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.2.3.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/10.2.3": {
+      "sha512": "70wN+hrf/50nUISfIVh85ma7snSA+OW4SWrvgdd+Ap9Yt+tvaA/R3uXvBL2rykWn0ZvCK9KwDd6cu7uPRmoamw==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/10.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.10.2.3.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/10.2.3": {
+      "sha512": "jwrDR0O9RA6IvXkON5M+UBSW2fNtsR2a9dw3dZYNslLzoaPd8K+NiJpn6FPIw63PHnwxsN9muiiNuKXf8HMpaw==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "IdentityModel/4.0.0": {
@@ -5979,10 +6106,20 @@
       "path": "../Rajanell.TechStack.Core.Repository/Rajanell.TechStack.Core.Repository.csproj",
       "msbuildProject": "../Rajanell.TechStack.Core.Repository/Rajanell.TechStack.Core.Repository.csproj"
     },
+    "Rajanell.TechStack.Core.Service/1.0.0": {
+      "type": "project",
+      "path": "../Rajanell.TechStack.Core.Service/Rajanell.TechStack.Core.Service.csproj",
+      "msbuildProject": "../Rajanell.TechStack.Core.Service/Rajanell.TechStack.Core.Service.csproj"
+    },
     "Rajanell.TechStack.Infrastructure.Data/1.0.0": {
       "type": "project",
       "path": "../Rajanell.TechStack.Infrastructure.Data/Rajanell.TechStack.Infrastructure.Data.csproj",
       "msbuildProject": "../Rajanell.TechStack.Infrastructure.Data/Rajanell.TechStack.Infrastructure.Data.csproj"
+    },
+    "Rajanell.TechStack.Services/1.0.0": {
+      "type": "project",
+      "path": "../Rajanell.TechStack.Services/Rajanell.TechStack.Services.csproj",
+      "msbuildProject": "../Rajanell.TechStack.Services/Rajanell.TechStack.Services.csproj"
     },
     "Rajanell.TechStack.Services.EventHandlers/1.0.0": {
       "type": "project",
@@ -5993,20 +6130,29 @@
       "type": "project",
       "path": "../Rajanell.TechStack.Services.Repository/Rajanell.TechStack.Services.Repository.csproj",
       "msbuildProject": "../Rajanell.TechStack.Services.Repository/Rajanell.TechStack.Services.Repository.csproj"
+    },
+    "Rajanell.TechStack.Validation/1.0.0": {
+      "type": "project",
+      "path": "../Rajanell.TechStack.Validation/Rajanell.TechStack.Validation.csproj",
+      "msbuildProject": "../Rajanell.TechStack.Validation/Rajanell.TechStack.Validation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 10.1.1",
+      "FluentValidation.DependencyInjectionExtensions >= 10.2.3",
       "IdentityServer4.AccessTokenValidation >= 3.0.1",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.7",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.7",
       "Rajanell.TechStack.Application.Communication >= 1.0.0",
       "Rajanell.TechStack.Application.Events >= 1.0.0",
+      "Rajanell.TechStack.Core.Service >= 1.0.0",
       "Rajanell.TechStack.Infrastructure.Data >= 1.0.0",
+      "Rajanell.TechStack.Services >= 1.0.0",
       "Rajanell.TechStack.Services.EventHandlers >= 1.0.0",
       "Rajanell.TechStack.Services.Repository >= 1.0.0",
+      "Rajanell.TechStack.Validation >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -6048,6 +6194,9 @@
             "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Application.Events\\Rajanell.TechStack.Application.Events.csproj": {
               "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Application.Events\\Rajanell.TechStack.Application.Events.csproj"
             },
+            "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Service\\Rajanell.TechStack.Core.Service.csproj": {
+              "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Service\\Rajanell.TechStack.Core.Service.csproj"
+            },
             "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Infrastructure.Data\\Rajanell.TechStack.Infrastructure.Data.csproj": {
               "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Infrastructure.Data\\Rajanell.TechStack.Infrastructure.Data.csproj"
             },
@@ -6056,6 +6205,12 @@
             },
             "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Services.Repository\\Rajanell.TechStack.Services.Repository.csproj": {
               "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Services.Repository\\Rajanell.TechStack.Services.Repository.csproj"
+            },
+            "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Services\\Rajanell.TechStack.Services.csproj": {
+              "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Services\\Rajanell.TechStack.Services.csproj"
+            },
+            "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Validation\\Rajanell.TechStack.Validation.csproj": {
+              "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Validation\\Rajanell.TechStack.Validation.csproj"
             }
           }
         }
@@ -6073,6 +6228,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[10.1.1, )"
+          },
+          "FluentValidation.DependencyInjectionExtensions": {
+            "target": "Package",
+            "version": "[10.2.3, )"
           },
           "IdentityServer4.AccessTokenValidation": {
             "target": "Package",

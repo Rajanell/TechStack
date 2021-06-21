@@ -16,8 +16,11 @@ namespace Rajanell.TechStack.API.Store.DIServices
     {
         public static void AddRepositoryServices(this IServiceCollection services)
         {
+            //Command
             services.AddScoped<IUserCommandRepository, UserCommandRepository>();
             services.AddScoped<IProductCategoryCommandRepository, ProductCategoryCommandRepository>();
+            //Query
+            services.AddScoped<IUserQueryRepository, UserQueryRepository>();
             services.AddScoped<IProductCategoryQueryRepository, ProductCategoryQueryRepository>();
             //Generic repository
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));

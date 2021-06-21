@@ -9,7 +9,8 @@
       "Rajanell.TechStack.Validation/1.0.0": {
         "dependencies": {
           "FluentValidation.AspNetCore": "10.2.3",
-          "Rajanell.TechStach.Core.Model": "1.0.0"
+          "Rajanell.TechStach.Core.Model": "1.0.0",
+          "Rajanell.TechStack.Core.Service": "1.0.0"
         },
         "runtime": {
           "Rajanell.TechStack.Validation.dll": {}
@@ -52,6 +53,11 @@
         "runtime": {
           "Rajanell.TechStach.Core.Model.dll": {}
         }
+      },
+      "Rajanell.TechStack.Core.Service/1.0.0": {
+        "runtime": {
+          "Rajanell.TechStack.Core.Service.dll": {}
+        }
       }
     }
   },
@@ -90,6 +96,11 @@
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
     },
     "Rajanell.TechStach.Core.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rajanell.TechStack.Core.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

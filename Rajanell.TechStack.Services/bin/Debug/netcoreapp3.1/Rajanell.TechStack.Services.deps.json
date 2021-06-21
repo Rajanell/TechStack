@@ -7,14 +7,51 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "Rajanell.TechStack.Services/1.0.0": {
+        "dependencies": {
+          "Rajanell.TechStack.Core.Repository": "1.0.0",
+          "Rajanell.TechStack.Core.Service": "1.0.0"
+        },
         "runtime": {
           "Rajanell.TechStack.Services.dll": {}
+        }
+      },
+      "Rajanell.TechStach.Core.Model/1.0.0": {
+        "runtime": {
+          "Rajanell.TechStach.Core.Model.dll": {}
+        }
+      },
+      "Rajanell.TechStack.Core.Repository/1.0.0": {
+        "dependencies": {
+          "Rajanell.TechStach.Core.Model": "1.0.0"
+        },
+        "runtime": {
+          "Rajanell.TechStack.Core.Repository.dll": {}
+        }
+      },
+      "Rajanell.TechStack.Core.Service/1.0.0": {
+        "runtime": {
+          "Rajanell.TechStack.Core.Service.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Rajanell.TechStack.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rajanell.TechStach.Core.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rajanell.TechStack.Core.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Rajanell.TechStack.Core.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

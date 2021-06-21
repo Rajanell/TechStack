@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using Rajanell.TechStach.Core.Model.RequestDTO;
 using Rajanell.TechStack.Client.Store.Models;
 using System;
@@ -27,7 +28,7 @@ namespace Rajanell.TechStack.Client.Store.Controllers
         {
             return RedirectToAction("Index", "Products");
         }
-      
+
         public IActionResult Register()
         {
             return View();
@@ -38,7 +39,7 @@ namespace Rajanell.TechStack.Client.Store.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = JsonSerializer.Serialize(model);
+                var user = System.Text.Json.JsonSerializer.Serialize(model);
 
                 var httpClient = _httpClientFactory.CreateClient("APIClient");
                 var request = new HttpRequestMessage(HttpMethod.Post, $"/api/User")
@@ -49,8 +50,24 @@ namespace Rajanell.TechStack.Client.Store.Controllers
                 var response = await httpClient.SendAsync(
                     request, HttpCompletionOption.ResponseHeadersRead).ConfigureAwait(false);
 
-                response.EnsureSuccessStatusCode();
-                return View("RegistrationConfirmation");
+                if (response.IsSuccessStatusCode)
+                {
+                    return View("RegistrationConfirmation");
+                }
+                else
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+                    var errors = JsonConvert.DeserializeObject<APIErrors>(responseContent);
+
+                   foreach(var modelState in errors.errors)
+                    {
+                        var modelField = modelState.Key;
+                        foreach(var fieldError in modelState.Value)
+                        {
+                            ModelState.AddModelError(modelField, fieldError);
+                        }
+                    }
+                }
             }
             return View(model);
         }
@@ -78,5 +95,11 @@ namespace Rajanell.TechStack.Client.Store.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+    }
+    public class APIErrors
+    {
+        public Dictionary<string, IList<string>> errors { get; set; }
+
     }
 }

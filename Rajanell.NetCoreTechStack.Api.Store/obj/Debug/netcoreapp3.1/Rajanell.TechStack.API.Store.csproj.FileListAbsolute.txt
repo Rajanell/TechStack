@@ -89,3 +89,12 @@ C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStac
 C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Validation.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Core.Service.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Core.Service.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.pdb

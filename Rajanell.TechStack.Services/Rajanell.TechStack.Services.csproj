@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Rajanell.TechStack.Core.Repository\Rajanell.TechStack.Core.Repository.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Core.Service\Rajanell.TechStack.Core.Service.csproj" />
+  </ItemGroup>
+
 </Project>

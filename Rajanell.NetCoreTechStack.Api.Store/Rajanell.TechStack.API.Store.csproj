@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.2.3" />
     <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.7" />
@@ -19,9 +20,12 @@
   <ItemGroup>
     <ProjectReference Include="..\Rajanell.TechStack.Application.Communication\Rajanell.TechStack.Application.Communication.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Application.Events\Rajanell.TechStack.Application.Events.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Core.Service\Rajanell.TechStack.Core.Service.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Infrastructure.Data\Rajanell.TechStack.Infrastructure.Data.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Services.EventHandlers\Rajanell.TechStack.Services.EventHandlers.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Services.Repository\Rajanell.TechStack.Services.Repository.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Services\Rajanell.TechStack.Services.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Validation\Rajanell.TechStack.Validation.csproj" />
   </ItemGroup>
 
 

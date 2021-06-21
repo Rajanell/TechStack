@@ -11,14 +11,19 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Rajanell.TechStack.API.Store.DIServices;
+using Rajanell.TechStack.API.Store.Filters;
 using Rajanell.TechStack.Application.Communication;
 using Rajanell.TechStack.Infrastructure.Data;
 using Rajanell.TechStack.Services.EventHandlers;
 using Rajanell.TechStack.Services.EventHandlers.Commands;
+using Rajanell.TechStack.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FluentValidation.AspNetCore;
+using Rajanell.TechStack.Validation.Validators;
+using Rajanell.TechStack.Core.Service;
 
 namespace Rajanell.NetCoreTechStack.Api.Store
 {
@@ -34,15 +39,16 @@ namespace Rajanell.NetCoreTechStack.Api.Store
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers()
+            services.AddControllersWithViews(options => options.Filters.Add<ValidationFilter>()).AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<AddUserValidator>())
                      //.AddJsonOptions(opts => opts.JsonSerializerOptions.PropertyNamingPolicy = null);
-                     .AddNewtonsoftJson(options =>
-    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+                     .AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
             services.AddAutoMapper(typeof(MappingProfile));
             services.AddMediatR(typeof(AddUserCommandEventHandler).Assembly);
+            //services.AddControllersWithViews(options => options.Filters.Add<ValidationFilter>()).AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<AddUserValidator>());
 
             services.AddDbContext<StoreDBContext>(e => { e.UseSqlServer(Configuration.GetConnectionString("Default")); });
+            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IMessageService, MessageService>();
             services.AddRepositoryServices();
             services.AddSwagger();
