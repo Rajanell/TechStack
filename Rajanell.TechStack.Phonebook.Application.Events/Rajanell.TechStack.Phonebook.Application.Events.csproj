@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rajanell.TechStack.Application.Communication\Rajanell.TechStack.Application.Communication.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Phonebook.Model\Rajanell.TechStack.Phonebook.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>

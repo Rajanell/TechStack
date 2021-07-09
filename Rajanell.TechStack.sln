@@ -41,9 +41,41 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Services
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Services.EventHandlers", "Rajanell.TechStack.Services.EventHandlers\Rajanell.TechStack.Services.EventHandlers.csproj", "{B56FA466-2C37-4FF1-85CD-1E350342D26D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.TechStack.Validation", "Rajanell.TechStack.Validation\Rajanell.TechStack.Validation.csproj", "{16A012D9-93D9-45AE-B698-863EA3427BF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Validation", "Rajanell.TechStack.Validation\Rajanell.TechStack.Validation.csproj", "{16A012D9-93D9-45AE-B698-863EA3427BF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Test", "Rajanell.TechStack.Test", "{D7809BB6-9FD6-4605-B6AF-96D907E99045}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Test.UnitTest", "Rajanell.TechStack.Test.UnitTest\Rajanell.TechStack.Test.UnitTest.csproj", "{E42E46AE-E283-48FA-B889-A76817C8AC0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Modules", "Rajanell.TechStack.Modules", "{9291CE3A-B814-4D58-958B-F0E6DCF14DD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Phonebook", "Rajanell.TechStack.Phonebook", "{AF0E0A46-DB20-40E3-81FB-11581084FB17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Phonebook.Core", "Rajanell.TechStack.Phonebook.Core", "{8735B464-CA2F-49DE-BC2B-9BC6D9F395D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Phonebook.Core.Model", "Rajanell.TechStack.Phonebook.Model\Rajanell.TechStack.Phonebook.Core.Model.csproj", "{EA9B4D8D-8729-4CFA-BBBE-33DF3D4FA256}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Phonebook.Infrastructure", "Rajanell.TechStack.Phonebook.Infrastructure", "{D16D1186-167E-41D3-A5F3-406D408315B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rajanell.TechStack.Phonebook.Infrastructure.Data", "Rajanell.TechStack.Phonebook.Infrastructure.Data\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj", "{70161D91-B197-4CB1-B8A8-9FFF616F0FB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.TechStack.Phonebook.Core.Repository", "Rajanell.TechStack.Phonebook.Core.Repository\Rajanell.TechStack.Phonebook.Core.Repository.csproj", "{D43874A9-7D1B-4439-942D-7FE5092AD86F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.TechStack.Phonebook.Core.DomainService", "Rajanell.TechStack.Phonebook.Core.DomainService\Rajanell.TechStack.Phonebook.Core.DomainService.csproj", "{72550CA9-AD69-4BAE-9B04-E863B38FC3F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Phonebook.Client", "Rajanell.TechStack.Phonebook.Client", "{3B9257B6-4508-4137-A60F-6D28D49750B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.NetCoreTechStack.Phonebook.Client.WebUI", "Rajanell.NetCoreTechStack.Phonebook.Client.WebUI\Rajanell.NetCoreTechStack.Phonebook.Client.WebUI.csproj", "{930881FD-9F83-4A3D-8A47-97322B60F1DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Phonebook.Application", "Rajanell.TechStack.Phonebook.Application", "{2DED6A2F-C8A8-4245-86D5-444454C539C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.TechStack.Phonebook.Application.Events", "Rajanell.TechStack.Phonebook.Application.Events\Rajanell.TechStack.Phonebook.Application.Events.csproj", "{832375D5-F024-4B5C-B92C-7C0CB47B8D79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rajanell.TechStack.Phonebook.Services", "Rajanell.TechStack.Phonebook.Services", "{90530858-0C9B-4A9D-AB91-90751C28B7BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.TechStack.Phonebook.Services.Repository", "Rajanell.TechStack.Phonebook.Services.Repository\Rajanell.TechStack.Phonebook.Services.Repository.csproj", "{2E8F744C-29B7-44F5-8768-877A7397E317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rajanell.TechStack.Phonebook.Services.EventHandlers", "Rajanell.TechStack.Phonebook.Services.EventHandlers\Rajanell.TechStack.Phonebook.Services.EventHandlers.csproj", "{79731637-AC89-424F-B87E-38B5F06DED46}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +135,42 @@ Global
 		{16A012D9-93D9-45AE-B698-863EA3427BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A012D9-93D9-45AE-B698-863EA3427BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A012D9-93D9-45AE-B698-863EA3427BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42E46AE-E283-48FA-B889-A76817C8AC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42E46AE-E283-48FA-B889-A76817C8AC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42E46AE-E283-48FA-B889-A76817C8AC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42E46AE-E283-48FA-B889-A76817C8AC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA9B4D8D-8729-4CFA-BBBE-33DF3D4FA256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA9B4D8D-8729-4CFA-BBBE-33DF3D4FA256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA9B4D8D-8729-4CFA-BBBE-33DF3D4FA256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA9B4D8D-8729-4CFA-BBBE-33DF3D4FA256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70161D91-B197-4CB1-B8A8-9FFF616F0FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70161D91-B197-4CB1-B8A8-9FFF616F0FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70161D91-B197-4CB1-B8A8-9FFF616F0FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70161D91-B197-4CB1-B8A8-9FFF616F0FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43874A9-7D1B-4439-942D-7FE5092AD86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43874A9-7D1B-4439-942D-7FE5092AD86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43874A9-7D1B-4439-942D-7FE5092AD86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43874A9-7D1B-4439-942D-7FE5092AD86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72550CA9-AD69-4BAE-9B04-E863B38FC3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72550CA9-AD69-4BAE-9B04-E863B38FC3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72550CA9-AD69-4BAE-9B04-E863B38FC3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72550CA9-AD69-4BAE-9B04-E863B38FC3F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930881FD-9F83-4A3D-8A47-97322B60F1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930881FD-9F83-4A3D-8A47-97322B60F1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930881FD-9F83-4A3D-8A47-97322B60F1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930881FD-9F83-4A3D-8A47-97322B60F1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832375D5-F024-4B5C-B92C-7C0CB47B8D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832375D5-F024-4B5C-B92C-7C0CB47B8D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832375D5-F024-4B5C-B92C-7C0CB47B8D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832375D5-F024-4B5C-B92C-7C0CB47B8D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8F744C-29B7-44F5-8768-877A7397E317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8F744C-29B7-44F5-8768-877A7397E317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8F744C-29B7-44F5-8768-877A7397E317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8F744C-29B7-44F5-8768-877A7397E317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79731637-AC89-424F-B87E-38B5F06DED46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79731637-AC89-424F-B87E-38B5F06DED46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79731637-AC89-424F-B87E-38B5F06DED46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79731637-AC89-424F-B87E-38B5F06DED46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +189,21 @@ Global
 		{4AC52098-F194-4772-9AB2-D6E311845050} = {9FE902C0-FF1B-4021-968B-D4EC7B28721E}
 		{B56FA466-2C37-4FF1-85CD-1E350342D26D} = {9FE902C0-FF1B-4021-968B-D4EC7B28721E}
 		{16A012D9-93D9-45AE-B698-863EA3427BF1} = {9FE902C0-FF1B-4021-968B-D4EC7B28721E}
+		{E42E46AE-E283-48FA-B889-A76817C8AC0A} = {D7809BB6-9FD6-4605-B6AF-96D907E99045}
+		{AF0E0A46-DB20-40E3-81FB-11581084FB17} = {9291CE3A-B814-4D58-958B-F0E6DCF14DD2}
+		{8735B464-CA2F-49DE-BC2B-9BC6D9F395D5} = {AF0E0A46-DB20-40E3-81FB-11581084FB17}
+		{EA9B4D8D-8729-4CFA-BBBE-33DF3D4FA256} = {8735B464-CA2F-49DE-BC2B-9BC6D9F395D5}
+		{D16D1186-167E-41D3-A5F3-406D408315B6} = {AF0E0A46-DB20-40E3-81FB-11581084FB17}
+		{70161D91-B197-4CB1-B8A8-9FFF616F0FB3} = {D16D1186-167E-41D3-A5F3-406D408315B6}
+		{D43874A9-7D1B-4439-942D-7FE5092AD86F} = {8735B464-CA2F-49DE-BC2B-9BC6D9F395D5}
+		{72550CA9-AD69-4BAE-9B04-E863B38FC3F9} = {8735B464-CA2F-49DE-BC2B-9BC6D9F395D5}
+		{3B9257B6-4508-4137-A60F-6D28D49750B1} = {AF0E0A46-DB20-40E3-81FB-11581084FB17}
+		{930881FD-9F83-4A3D-8A47-97322B60F1DC} = {3B9257B6-4508-4137-A60F-6D28D49750B1}
+		{2DED6A2F-C8A8-4245-86D5-444454C539C7} = {AF0E0A46-DB20-40E3-81FB-11581084FB17}
+		{832375D5-F024-4B5C-B92C-7C0CB47B8D79} = {2DED6A2F-C8A8-4245-86D5-444454C539C7}
+		{90530858-0C9B-4A9D-AB91-90751C28B7BB} = {AF0E0A46-DB20-40E3-81FB-11581084FB17}
+		{2E8F744C-29B7-44F5-8768-877A7397E317} = {90530858-0C9B-4A9D-AB91-90751C28B7BB}
+		{79731637-AC89-424F-B87E-38B5F06DED46} = {90530858-0C9B-4A9D-AB91-90751C28B7BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA99D0C5-F178-423A-86D1-85C166391CC7}

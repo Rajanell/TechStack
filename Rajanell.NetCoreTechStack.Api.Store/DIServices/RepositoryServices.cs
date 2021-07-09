@@ -2,6 +2,8 @@
 using Rajanell.TechStack.Core.Repository;
 using Rajanell.TechStack.Core.Repository.Read;
 using Rajanell.TechStack.Core.Repository.Write;
+using Rajanell.TechStack.Phonebook.Core.Repository;
+using Rajanell.TechStack.Phonebook.Services.Repository;
 using Rajanell.TechStack.Services.Repository;
 using Rajanell.TechStack.Services.Repository.Read;
 using Rajanell.TechStack.Services.Repository.Write;
@@ -24,6 +26,10 @@ namespace Rajanell.TechStack.API.Store.DIServices
             services.AddScoped<IProductCategoryQueryRepository, ProductCategoryQueryRepository>();
             //Generic repository
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+
+            //Phonebook
+            services.AddScoped<IPhoneBookRepository, PhonebookRepository>();
+            services.AddScoped<IPhoneBookEntryRepository, PhoneBookEntryRepository>();
         }
     }
 }

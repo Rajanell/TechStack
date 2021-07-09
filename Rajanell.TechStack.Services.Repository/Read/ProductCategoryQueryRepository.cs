@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Rajanell.TechStach.Core.Model;
+using Rajanell.TechStach.Core.Model.Common;
+using Rajanell.TechStach.Core.Model.RequestDTO;
 using Rajanell.TechStack.Core.Repository.Read;
 using Rajanell.TechStack.Infrastructure.Data;
 using System;

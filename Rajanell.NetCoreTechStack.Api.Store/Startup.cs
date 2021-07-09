@@ -24,6 +24,8 @@ using System.Threading.Tasks;
 using FluentValidation.AspNetCore;
 using Rajanell.TechStack.Validation.Validators;
 using Rajanell.TechStack.Core.Service;
+using Rajanell.TechStack.Phonebook.Infrastructure.Data;
+using Rajanell.TechStack.Phonebook.Services.EventHandlers;
 
 namespace Rajanell.NetCoreTechStack.Api.Store
 {
@@ -43,11 +45,11 @@ namespace Rajanell.NetCoreTechStack.Api.Store
                      //.AddJsonOptions(opts => opts.JsonSerializerOptions.PropertyNamingPolicy = null);
                      .AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
-            services.AddAutoMapper(typeof(MappingProfile));
-            services.AddMediatR(typeof(AddUserCommandEventHandler).Assembly);
-            //services.AddControllersWithViews(options => options.Filters.Add<ValidationFilter>()).AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<AddUserValidator>());
+            services.AddAutoMapper(typeof(MappingProfile), typeof(PhonebookMappingProfile));
+            services.AddMediatR(typeof(AddUserCommandEventHandler).Assembly, typeof(AddPhoneBookCommandEventHandler).Assembly);
 
             services.AddDbContext<StoreDBContext>(e => { e.UseSqlServer(Configuration.GetConnectionString("Default")); });
+            services.AddDbContext<PhoneBookDBContext>(e => { e.UseSqlServer(Configuration.GetConnectionString("PhonebookConnectionString")); });
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IMessageService, MessageService>();
             services.AddRepositoryServices();

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Rajanell.TechStack.Core.Repository
 {
-    public interface IGenericRepository<T> : ICommandRepository<T>, IQueryRepository<T> where T : class
+    public interface IGenericRepository<T> : ICommandRepository<T>, IQueryRepository<T>, IPagedQueryRepository<T> where T : class
     {
     }
 }

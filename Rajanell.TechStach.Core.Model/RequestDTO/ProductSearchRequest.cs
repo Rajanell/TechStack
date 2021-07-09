@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Rajanell.TechStach.Core.Model.RequestDTO
 {
-    public class ProductSearchRequest : PagedRequest
+    public class ProductSearchRequest : ResourceParameters
     {
         public string Search { get; set; }
     }

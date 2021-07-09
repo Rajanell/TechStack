@@ -44,6 +44,18 @@
               "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Infrastructure.Data\\Rajanell.TechStack.Infrastructure.Data.csproj": {
                 "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Infrastructure.Data\\Rajanell.TechStack.Infrastructure.Data.csproj"
               },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\Rajanell.TechStack.Phonebook.Application.Events.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\Rajanell.TechStack.Phonebook.Application.Events.csproj"
+              },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj"
+              },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.EventHandlers\\Rajanell.TechStack.Phonebook.Services.EventHandlers.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.EventHandlers\\Rajanell.TechStack.Phonebook.Services.EventHandlers.csproj"
+              },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.Repository\\Rajanell.TechStack.Phonebook.Services.Repository.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.Repository\\Rajanell.TechStack.Phonebook.Services.Repository.csproj"
+              },
               "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Services.EventHandlers\\Rajanell.TechStack.Services.EventHandlers.csproj": {
                 "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Services.EventHandlers\\Rajanell.TechStack.Services.EventHandlers.csproj"
               },
@@ -484,6 +496,404 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\Rajanell.TechStack.Phonebook.Application.Events.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\Rajanell.TechStack.Phonebook.Application.Events.csproj",
+        "projectName": "Rajanell.TechStack.Phonebook.Application.Events",
+        "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\Rajanell.TechStack.Phonebook.Application.Events.csproj",
+        "packagesPath": "C:\\Users\\c822499\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c822499\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Application.Communication\\Rajanell.TechStack.Application.Communication.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Application.Communication\\Rajanell.TechStack.Application.Communication.csproj"
+              },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\Rajanell.TechStack.Phonebook.Core.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\Rajanell.TechStack.Phonebook.Core.Repository.csproj",
+        "projectName": "Rajanell.TechStack.Phonebook.Core.Repository",
+        "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\Rajanell.TechStack.Phonebook.Core.Repository.csproj",
+        "packagesPath": "C:\\Users\\c822499\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c822499\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Repository\\Rajanell.TechStack.Core.Repository.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Core.Repository\\Rajanell.TechStack.Core.Repository.csproj"
+              },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj",
+        "projectName": "Rajanell.TechStack.Phonebook.Infrastructure.Data",
+        "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\c822499\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c822499\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj",
+        "projectName": "Rajanell.TechStack.Phonebook.Core.Model",
+        "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\Rajanell.TechStack.Phonebook.Core.Model.csproj",
+        "packagesPath": "C:\\Users\\c822499\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c822499\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.EventHandlers\\Rajanell.TechStack.Phonebook.Services.EventHandlers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.EventHandlers\\Rajanell.TechStack.Phonebook.Services.EventHandlers.csproj",
+        "projectName": "Rajanell.TechStack.Phonebook.Services.EventHandlers",
+        "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.EventHandlers\\Rajanell.TechStack.Phonebook.Services.EventHandlers.csproj",
+        "packagesPath": "C:\\Users\\c822499\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.EventHandlers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c822499\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\Rajanell.TechStack.Phonebook.Application.Events.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Application.Events\\Rajanell.TechStack.Phonebook.Application.Events.csproj"
+              },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\Rajanell.TechStack.Phonebook.Core.Repository.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\Rajanell.TechStack.Phonebook.Core.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.Repository\\Rajanell.TechStack.Phonebook.Services.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.Repository\\Rajanell.TechStack.Phonebook.Services.Repository.csproj",
+        "projectName": "Rajanell.TechStack.Phonebook.Services.Repository",
+        "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.Repository\\Rajanell.TechStack.Phonebook.Services.Repository.csproj",
+        "packagesPath": "C:\\Users\\c822499\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Services.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\c822499\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\Rajanell.TechStack.Phonebook.Core.Repository.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Core.Repository\\Rajanell.TechStack.Phonebook.Core.Repository.csproj"
+              },
+              "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj": {
+                "projectPath": "C:\\Users\\c822499\\source\\repos\\Rajanell.NetCoreTechStack\\Rajanell.TechStack.Phonebook.Infrastructure.Data\\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
 using Rajanell.TechStach.Core.Model;
+using Rajanell.TechStach.Core.Model.Common;
+using Rajanell.TechStach.Core.Model.RequestDTO;
 using Rajanell.TechStach.Core.Model.ResponseDTO;
 using Rajanell.TechStack.Application.Communication;
 using Rajanell.TechStack.Application.Events.Query.Product;
@@ -29,13 +31,13 @@ namespace Rajanell.TechStack.Services.EventHandlers.Queries
             var searchString = request.QueryData.Search;
             if(!string.IsNullOrEmpty(searchString))
             {
-                var isGuid = Guid.TryParse(searchString, out Guid searchGuid);
-                var searchedProducts = isGuid ? await _productRepository.Find(x => x.ProductCategoryId == searchGuid || x.ProductId == searchGuid) :
-                    await _productRepository.Find(x => x.Name.Contains(searchString));
+                var isGuid = Guid.TryParse(searchString, out Guid searchGuid);                
+                var searchedProducts = isGuid ? await _productRepository.Find(x => x.ProductCategoryId == searchGuid || x.ProductId == searchGuid, request.QueryData) :
+                    await _productRepository.Find(x => x.Name.Contains(searchString), request.QueryData);
                 return new CommandResult<List<ProductResponse>>(_mapper.Map<List<ProductResponse>>(searchedProducts), Guid.NewGuid(), true, string.Empty);
             }
 
-            var products = await _productRepository.GetAll();
+            var products = await _productRepository.GetAll(request.QueryData);
             return new CommandResult<List<ProductResponse>>(_mapper.Map<List<ProductResponse>>(products), Guid.NewGuid(), true, string.Empty);
         }
     }

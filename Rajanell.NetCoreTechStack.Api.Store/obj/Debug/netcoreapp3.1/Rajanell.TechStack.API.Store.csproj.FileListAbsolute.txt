@@ -98,3 +98,15 @@ C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStac
 C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.dll
 C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Core.Service.pdb
 C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Services.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Core.Model.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Infrastructure.Data.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Infrastructure.Data.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Core.Model.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Application.Events.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Application.Events.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Services.EventHandlers.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Services.EventHandlers.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Core.Repository.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Core.Repository.pdb
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Services.Repository.dll
+C:\Users\c822499\source\repos\Rajanell.NetCoreTechStack\Rajanell.NetCoreTechStack.Api.Store\bin\Debug\netcoreapp3.1\Rajanell.TechStack.Phonebook.Services.Repository.pdb

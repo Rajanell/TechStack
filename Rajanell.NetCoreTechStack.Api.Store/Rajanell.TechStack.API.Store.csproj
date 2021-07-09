@@ -22,6 +22,10 @@
     <ProjectReference Include="..\Rajanell.TechStack.Application.Events\Rajanell.TechStack.Application.Events.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Core.Service\Rajanell.TechStack.Core.Service.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Infrastructure.Data\Rajanell.TechStack.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Phonebook.Application.Events\Rajanell.TechStack.Phonebook.Application.Events.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Phonebook.Infrastructure.Data\Rajanell.TechStack.Phonebook.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Phonebook.Services.EventHandlers\Rajanell.TechStack.Phonebook.Services.EventHandlers.csproj" />
+    <ProjectReference Include="..\Rajanell.TechStack.Phonebook.Services.Repository\Rajanell.TechStack.Phonebook.Services.Repository.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Services.EventHandlers\Rajanell.TechStack.Services.EventHandlers.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Services.Repository\Rajanell.TechStack.Services.Repository.csproj" />
     <ProjectReference Include="..\Rajanell.TechStack.Services\Rajanell.TechStack.Services.csproj" />

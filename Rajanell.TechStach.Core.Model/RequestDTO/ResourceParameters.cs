@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Rajanell.TechStach.Core.Model.RequestDTO
 {
-    public class PagedRequest
+    public class ResourceParameters
     {
         const int maxPageSize = 20;
         public int PageNumber { get; set; } = 1;

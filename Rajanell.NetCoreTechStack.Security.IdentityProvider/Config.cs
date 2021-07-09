@@ -68,6 +68,16 @@ namespace Rajanell.NetCoreTechStack.Security.IdentityProvider
                     },
                     // scopes that client has access to
                     AllowedScopes = { "StoreAPI" }
+                }, new Client
+                {
+                    ClientId = "PhonebookClientApp",
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,             
+                    ClientSecrets =
+                    {
+                        new Secret("secret2".Sha256()) 
+                    },
+                    // scopes that client has access to
+                    AllowedScopes = { "StoreAPI" }
                 }
             };
     }

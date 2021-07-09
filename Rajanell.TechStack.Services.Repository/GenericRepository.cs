@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Rajanell.TechStach.Core.Model.Common;
+using Rajanell.TechStach.Core.Model.RequestDTO;
 using Rajanell.TechStack.Core.Repository;
 using Rajanell.TechStack.Infrastructure.Data;
 using System;
@@ -35,9 +37,21 @@ namespace Rajanell.TechStack.Services.Repository
             return await Task.Run(() => entity.Where(query));
         }
 
+        public async Task<PagedList<T>> Find(Expression<Func<T, bool>> query, ResourceParameters resourceParameters)
+        {
+            var collection = entity.Where(query) as IQueryable<T>;            
+            return await Task.Run(() => PagedList<T>.Create(collection, resourceParameters.PageNumber, resourceParameters.PageSize));
+        }
+
         public async Task<IEnumerable<T>> GetAll()
         {
             return await entity.ToListAsync();
+        }
+
+        public async Task<PagedList<T>> GetAll(ResourceParameters resourceParameters)
+        {
+            var collection = entity as IQueryable<T>;
+            return await Task.Run(() => PagedList<T>.Create(collection, resourceParameters.PageNumber, resourceParameters.PageSize));
         }
 
         public async Task<T> GetByID(Guid id)

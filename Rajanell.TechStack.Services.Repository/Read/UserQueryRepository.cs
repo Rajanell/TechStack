@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Rajanell.TechStach.Core.Model;
+using Rajanell.TechStach.Core.Model.Common;
+using Rajanell.TechStach.Core.Model.RequestDTO;
 using Rajanell.TechStack.Core.Repository.Read;
 using Rajanell.TechStack.Infrastructure.Data;
 using System;
@@ -23,7 +25,7 @@ namespace Rajanell.TechStack.Services.Repository.Read
         public async Task<IEnumerable<User>> Find(Expression<Func<User, bool>> query)
         {
             return await Task.Run(() => _context.Users.Where(query).ToListAsync());
-        }
+        }  
 
         public async Task<IEnumerable<User>> GetAll()
         {

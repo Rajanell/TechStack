@@ -1,0 +1,98 @@
+﻿@model List<Rajanell.TechStack.Phonebook.Core.Model.ResponseDTO.PhoneBookResponse>
+    <!-- Breadcrumbs -->
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bread-inner">
+                    <ul class="bread-list">
+                        <li><a href="~/Home/Index">Home<i class="ti-arrow-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumbs -->
+<div class="main-sidebar">
+    <!-- Single Widget -->
+    <div class="single-widget search">
+        <div class="form">
+            @*<input type="email" placeholder="Search Here...">
+            <a class="button" href="#"><i class="fa fa-search"></i></a>*@
+
+            @using (Html.BeginForm("Search", "Phonebook", FormMethod.Post, new { @class = "panel-body wrapper-lg", role = "form" }))
+            {
+                <input id="Text1" type="text" name="searchString" class="form-control" placeholder="Search Here..." />
+                <button type="submit" class="button"><i class="fa fa-search"></i></button>
+            }
+        </div>
+
+
+    </div>
+  
+    <div class="row">
+        <div class="col-6">
+            <section id="contact-us" class="contact-us section">
+                <div class="container">
+                    <div class="contact-head">
+                        @if (Model.Any())
+                        {
+                            <div class="single-head">
+                                @foreach (var phonebook in Model)
+                                {
+                                    <div class="row">
+                                        <div class="single-info  col-10">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <i class="fa fa-phone"></i>
+                                                </div>
+                                                <div class="col-10">
+                                                    <h4 class="title">@phonebook.Name</h4>
+                                                    @phonebook.Entries.Count Entries
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="~/Phonebook/Details?phonebookId=@phonebook.PhoneBookId"><i class="fa fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="col-6">
+            <div class="single-widget newsletter">
+                <h3 class="title">Phone Books</h3>
+                <div class="letter-inner">
+                    <div class="form-inner">
+
+                        @using (Html.BeginForm("AddPhonebook", "Phonebook", FormMethod.Post, new { @class = "panel-body wrapper-lg", role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary("", new { @class = "text-danger" })
+
+                            <div class="form-group">
+                                <input id="Text1" type="text"  name="phonebookName" class="form-control" />
+                            </div>
+                            <br />
+                            <div class="form-group button">
+                                <button type="submit" class="btn ">Create Phonebook</button>
+                            </div>
+                        }
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
